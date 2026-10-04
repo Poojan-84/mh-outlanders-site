@@ -1,0 +1,21 @@
+# Search engines are welcome.
+User-agent: *
+Allow: /
+
+# Bulk collectors for AI training and data resale: not welcome. Polite bots obey this;
+# it is a statement of terms, not a technical block (see docs/DECISIONS.md, 2026-10-04).
+User-agent: GPTBot
+User-agent: CCBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: Timpibot
+User-agent: ImagesiftBot
+Disallow: /
+
+Sitemap: https://monster-hunter-outlanders.wiki/sitemap-index.xml
